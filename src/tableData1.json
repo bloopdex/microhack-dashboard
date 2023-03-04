@@ -1,0 +1,32 @@
+[
+  {
+    "pic": "/products/1.jpg",
+    "name": "Bearings",
+    "arrival_date": "2018-01-01",
+    "status": "Ongoing"
+  },
+  {
+    "pic": "/products/2.jpg",
+    "name": "Couplings",
+    "arrival_date": "2018-01-01",
+    "status": "Ongoing"
+  },
+  {
+    "pic": "/products/3.jpg",
+    "name": "Control panels",
+    "arrival_date": "2018-01-01",
+    "status": "Done"
+  },
+  {
+    "pic": "/products/4.jpg",
+    "name": "Gearboxes",
+    "arrival_date": "2018-01-01",
+    "status": "Done"
+  },
+  {
+    "pic": "/products/5.jpg",
+    "name": "Motors",
+    "arrival_date": "2018-01-01",
+    "status": "Ongoing"
+  }
+]

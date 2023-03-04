@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #1f1f1f;
+}
+
+/* 
+=================
+Table
+=====================
+*/
+.table {
+  width: 100%;
+  gap: 1rem;
+  border-spacing: 1rem;
+}
+
+
+caption {
+  font-style: italic;
+  font-size: 90%;
+  margin-bottom: 10px;
+}
+
+.table th {
+  color: #809FB8;
+  background: #fff;
+  padding: 8px 10px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.table th.up {
+  background-image: url("./assets/up_arrow.png");
+}
+
+.table th.down {
+  background-image: url("./assets/down_arrow.png");
+}
+
+.table th.default {
+  background-image: url("./assets/down_arrow.png");
+}
+
+th.up,
+th.default,
+th.down {
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.table td {
+  padding: 8px 20px;
+}
